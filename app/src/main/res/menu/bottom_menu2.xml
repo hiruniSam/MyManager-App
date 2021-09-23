@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Home"
+        android:id="@+id/backToHome"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_home_24"/>
+    <item android:title="Report"
+        android:enabled="true"
+        android:id="@+id/report"
+        android:icon="@drawable/ic_baseline_pie_chart_24"/>
+    <item android:title="Overview"
+        android:enabled="true"
+        android:id="@+id/overview"
+        android:icon="@drawable/ic_baseline_view_list_24"/>
+</menu>
