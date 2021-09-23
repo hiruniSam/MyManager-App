@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">MyManager</string>
+    <string name="tv_overview">Overview</string>
+    <string name="tv_2">Balance</string>
+    <string name="overview_title">My Budget</string>
+    <string name="total_income_label">Income</string>
+    <string name="total_expense_label">Expenses</string>
+    <string name="overview_subtitle2">Recent transactions</string>
+    <string name="add_transaction_subtitle1">Add transaction</string>
+    <string name="add_transaction_add_income" >Add income</string>
+    <string name="edit_transaction_title" >Edit transaction</string>
+    <string name="edit_transaction_label">Amount ($)</string>
+    <string name="edit_category_name" >Category name</string>
+    <string name="add_income_btn">Add</string>
+    <string name="delete_income_btn">Delete</string>
+    <string name="add_transaction_add_expense">Add expense</string>
+    <string name="my_transaction_subtitle1">My transaction</string>
+    <string name="transaction_date_label">Transaction date</string>
+    <string name="edit_income_btn2">Save</string>
+    <string name="report_subtitle1">My expense report</string>
+    <string name="chart_attr_food">Food</string>
+    <string name="chart_attr_med">Medicine</string>
+    <string name="chart_attr_other">Others</string>
+    <string name="welcome_text">Welcome</string>
+    <string name="quick_actions">Quick actions</string>
+    <string name="card_title1">Create New Event</string>
+    <string name="card_title2">Add New Memory</string>
+    <string name="card_title3">Create New Goal</string>
+    <string name="card_title4">Add New Transaction</string>
+    <string name="overview_subtitle1">Overview</string>
+    <string name="edit_transaction_category">Salary</string>
+    <string name="add_transaction_income_add">Amount ($)</string>
+    <string name="add_income_category_name" >Category name</string>
+    <string name="username">Nirasha Jayasiri</string>
+    <string name="report_subtitle3">AUG 2021</string>
+    <string name="add_expense_category">House expenses</string>
+    <string name="overview_category_name">Category name</string>
+    <string name="add_transaction_category">Salary</string>
+    <string name="overview_transaction_date">15/08/2021</string>
+    <string name="overview_transaction_amount">100</string>
+    <string name="balance_amount">$10,000</string>
+    <string name="total_income">$20000</string>
+    <string name="total_expenses">$10000</string>
+    <string-array name="expenseCategory">
+        <item>Select Category</item>
+        <item>Food</item>
+        <item>Medicine</item>
+        <item>Home expenses</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="incomeCategory">
+        <item>Select Category</item>
+        <item>Salary</item>
+        <item>Others</item>
+    </string-array>
+</resources>
+
