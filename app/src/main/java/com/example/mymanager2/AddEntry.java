@@ -90,6 +90,7 @@ public class AddEntry extends AppCompatActivity {
             }
         });
 
+        //DATE
         textDateTime.setText(
                 new SimpleDateFormat("EEEE, dd MMMM yyyy HH:mm a", Locale.getDefault())
                         .format(new Date())
