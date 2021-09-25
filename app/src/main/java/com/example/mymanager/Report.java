@@ -33,6 +33,7 @@ public class Report extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_report);
+        //dbRef = FirebaseDatabase.getInstance().getReference().child("Expense");
 
         //navigation-bottomNavBar
         BottomNavigationView bottomNavigationView = (BottomNavigationView)findViewById(R.id.budgetNavBar);
@@ -57,6 +58,8 @@ public class Report extends AppCompatActivity {
                 return false;
             }
         });
+
+
 
 
         setupPieChart();

@@ -167,12 +167,8 @@ public class BudgetOverview extends AppCompatActivity {
         super.onStart();
 
 
-
-
         FirebaseRecyclerOptions<ExpenseBudget> options = new FirebaseRecyclerOptions.Builder<ExpenseBudget>()
                 .setQuery(dbRef,ExpenseBudget.class).build();
-
-
 
         FirebaseRecyclerAdapter<ExpenseBudget, MyViewHolder> adapter = new FirebaseRecyclerAdapter<ExpenseBudget, MyViewHolder>(options) {
             @Override
@@ -183,16 +179,16 @@ public class BudgetOverview extends AppCompatActivity {
 
                 switch (model.getCategory()){
                     case "Medicine":
-                        holder.imageIcon.setImageResource(R.drawable.ic_baseline_account_balance_wallet_24);
+                        holder.imageIcon.setImageResource(R.drawable.pills);
                         break;
                     case "Food":
                         holder.imageIcon.setImageResource(R.drawable.food);
                         break;
                     case "Home expenses":
-                        holder.imageIcon.setImageResource(R.drawable.moneybag);
+                        holder.imageIcon.setImageResource(R.drawable.house);
                         break;
                     case "Others":
-                        holder.imageIcon.setImageResource(R.drawable.target);
+                        holder.imageIcon.setImageResource(R.drawable.other);
                         break;
                 }
 
@@ -205,12 +201,9 @@ public class BudgetOverview extends AppCompatActivity {
 
                         updateData();
 
-
                     }
                 });
-
             }
-
             @NonNull
             @NotNull
             @Override
@@ -252,6 +245,7 @@ public class BudgetOverview extends AppCompatActivity {
         }
 
     }
+
     private void updateData(){
         AlertDialog.Builder myDialog = new AlertDialog.Builder(this);
         LayoutInflater inflater = LayoutInflater.from(this);

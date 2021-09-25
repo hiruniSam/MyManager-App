@@ -128,11 +128,7 @@ public class AddTransaction extends AppCompatActivity {
                         clearControls();
                     }
                 });
-
-
             }
-
-
         }
 
     public void insertExpenseData(View view){
