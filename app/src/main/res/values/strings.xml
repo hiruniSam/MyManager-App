@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">My Manager2</string>
+    <string name="btn_write">+Write</string>
+    <string name="et_searchDaily">Search...</string>
+    <string name="et_addTitle">Add a title...</string>
+    <string name="et_addEntry">Type here...</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_save">Save</string>
+    <string name="cb_confidential">Make Confidential</string>
+    <string name="et_passcode">Passcode</string>
+    <string name="confidential">Confidential</string>
+    <string name="add_a_image">Add a image</string>
+    <string name="dear_diary">Dear Diary...</string>
+</resources>

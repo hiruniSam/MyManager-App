@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/MyManager2/app/src/main/res/drawable/background_diary.xml" value="0.264" />
+        <entry key="..\:/MyManager2/app/src/main/res/drawable/ic_confidential.xml" value="0.2703125" />
+        <entry key="..\:/MyManager2/app/src/main/res/drawable/ic_daily.xml" value="0.2703125" />
+        <entry key="..\:/MyManager2/app/src/main/res/drawable/ic_delete.xml" value="0.2703125" />
+        <entry key="..\:/MyManager2/app/src/main/res/drawable/ic_diary.xml" value="0.2703125" />
+        <entry key="..\:/MyManager2/app/src/main/res/drawable/ic_home.xml" value="0.2703125" />
+        <entry key="..\:/MyManager2/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2703125" />
+        <entry key="..\:/MyManager2/app/src/main/res/drawable/selector_m.xml" value="0.2703125" />
+        <entry key="..\:/MyManager2/app/src/main/res/layout/activity_add_entry.xml" value="0.25052083333333336" />
+        <entry key="..\:/MyManager2/app/src/main/res/layout/activity_confidential.xml" value="0.25052083333333336" />
+        <entry key="..\:/MyManager2/app/src/main/res/layout/activity_daily.xml" value="0.25052083333333336" />
+        <entry key="..\:/MyManager2/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/MyManager2/app/src/main/res/layout/activity_passcode.xml" value="0.4" />
+        <entry key="..\:/MyManager2/app/src/main/res/layout/activity_secret_adapter.xml" value="0.25052083333333336" />
+        <entry key="..\:/MyManager2/app/src/main/res/layout/item_container_note_m.xml" value="0.22870370370370371" />
+        <entry key="..\:/MyManager2/app/src/main/res/menu/menu.xml" value="0.13148148148148148" />
+        <entry key="..\:/MyManager2/app/src/main/res/menu/menu_m.xml" value="0.13148148148148148" />
+        <entry key="..\:/MyManager2/app/src/main/res/menu/option_menu_m.xml" value="0.13148148148148148" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.4" />
+      </ProjectState>
+    </option>
+  </component>
+</project>
