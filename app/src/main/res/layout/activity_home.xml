@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+    <TextView
+        android:id="@+id/longTermText"
+        android:layout_width="287dp"
+        android:layout_height="49dp"
+        android:gravity="center_horizontal"
+        android:text="Define your target, identify milestones, and create an action plan"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        app:layout_constraintVertical_bias="0.813" />
+
+</RelativeLayout>

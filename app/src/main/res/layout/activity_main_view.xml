@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainView">
+
+
+    <ImageView
+
+        android:id="@+id/shortTerm"
+        android:layout_width="245dp"
+        android:layout_height="164dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/short_term" />
+
+
+    <Button
+        android:id="@+id/shortViewButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="215dp"
+        android:gravity="center_horizontal"
+        android:text=" SHORT TERM GOAL "
+        android:textAlignment="center"
+        android:textColor="#084A6E"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:backgroundTint="#A3EDF6" />
+
+    <TextView
+        android:id="@+id/shortTermText"
+        android:layout_width="287dp"
+        android:layout_height="49dp"
+        android:layout_below="@id/shortViewButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="9dp"
+        android:gravity="center_horizontal"
+        android:text="    Recurring Goal and
+                                    Work For It ."
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        app:layout_constraintVertical_bias="0.813"
+        tools:ignore="DuplicateIds" />
+
+
+    <ImageView
+
+        android:id="@+id/longTerm"
+        android:layout_width="245dp"
+        android:layout_height="164dp"
+        android:layout_below="@id/shortTerm"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="110dp"
+        android:background="@drawable/long_term"
+        app:layout_constraintVertical_bias="0.615" />
+
+    <Button
+        android:id="@+id/longViewButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/shortTerm"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="245dp"
+        android:gravity="center_horizontal"
+        android:text=" LONG TERM GOAL "
+        android:textAlignment="center"
+        android:textColor="#084A6E"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:backgroundTint="#A3EDF6" />
+
+    <TextView
+        android:id="@+id/longTermText"
+        android:layout_width="287dp"
+        android:layout_height="49dp"
+        android:gravity="center_horizontal"
+        android:text="Define your target, identify milestones, and create an action plan"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:layout_below="@id/longViewButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        app:layout_constraintVertical_bias="0.813" />
+
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigator1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:itemBackground="@color/light_grey"
+        app:itemIconTint="@drawable/selector"
+        app:itemTextColor="@drawable/selector"
+        app:menu="@menu/menumainview"
+
+        />
+
+
+
+
+</RelativeLayout>
