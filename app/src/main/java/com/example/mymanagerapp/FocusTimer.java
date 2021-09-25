@@ -18,6 +18,7 @@ public class FocusTimer extends AppCompatActivity {
     private long pauseOffset;
     private boolean running;
 
+     //navigationBar
 
     BottomNavigationView bottomNavigationView;
 
