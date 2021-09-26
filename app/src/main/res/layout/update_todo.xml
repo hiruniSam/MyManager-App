@@ -31,7 +31,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Category"
+                android:text="New Category"
                 android:textStyle="bold"
                 android:textSize="18sp"
                 android:textColor="@color/black"
@@ -88,7 +88,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Task"
+                android:text=" New Task"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 android:textColor="@color/black"
