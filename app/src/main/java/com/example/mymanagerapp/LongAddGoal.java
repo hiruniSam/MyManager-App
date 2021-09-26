@@ -135,6 +135,8 @@ public class LongAddGoal extends AppCompatActivity {
 
     }
 
+    //Adding Function
+
     public void Insert(View view){
 
         //dbRef = FirebaseDatabase.getInstance().getReference().child("LongGoal");
