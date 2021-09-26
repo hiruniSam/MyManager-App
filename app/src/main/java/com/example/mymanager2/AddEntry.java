@@ -211,10 +211,8 @@ public class AddEntry extends AppCompatActivity {
 
     } */
 
-
+    //add image
     private void initMiscellaneous(){
-
-
         findViewById(R.id.btnAddImage).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
