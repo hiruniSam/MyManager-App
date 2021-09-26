@@ -14,7 +14,7 @@ import java.util.Calendar;
 
 public class event extends AppCompatActivity {
 
-    //bottom navigation bar
+    //bottom navigation bar added
     BottomNavigationView bottomNavigationView;
 
     @Override
