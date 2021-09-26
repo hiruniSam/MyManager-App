@@ -119,6 +119,7 @@ public class todo extends AppCompatActivity {
         });
     }
 
+    //add tasks into list
     private void addTodo() {
 
         AlertDialog.Builder myDialog = new AlertDialog.Builder(this);
