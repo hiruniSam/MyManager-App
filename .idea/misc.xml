@@ -4,6 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/MyManager2/app/src/main/res/drawable/background_diary.xml" value="0.264" />
+        <entry key="..\:/MyManager2/app/src/main/res/drawable/ic_baseline_attach_money_24.xml" value="0.2703125" />
+        <entry key="..\:/MyManager2/app/src/main/res/drawable/ic_baseline_book_24.xml" value="0.2703125" />
+        <entry key="..\:/MyManager2/app/src/main/res/drawable/ic_baseline_calendar_today_24.xml" value="0.2703125" />
+        <entry key="..\:/MyManager2/app/src/main/res/drawable/ic_baseline_event_note_24.xml" value="0.2703125" />
+        <entry key="..\:/MyManager2/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.2703125" />
         <entry key="..\:/MyManager2/app/src/main/res/drawable/ic_confidential.xml" value="0.2703125" />
         <entry key="..\:/MyManager2/app/src/main/res/drawable/ic_daily.xml" value="0.2703125" />
         <entry key="..\:/MyManager2/app/src/main/res/drawable/ic_delete.xml" value="0.2703125" />
@@ -11,13 +16,16 @@
         <entry key="..\:/MyManager2/app/src/main/res/drawable/ic_home.xml" value="0.2703125" />
         <entry key="..\:/MyManager2/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2703125" />
         <entry key="..\:/MyManager2/app/src/main/res/drawable/selector_m.xml" value="0.2703125" />
+        <entry key="..\:/MyManager2/app/src/main/res/font/font.xml" value="0.1527777777777778" />
         <entry key="..\:/MyManager2/app/src/main/res/layout/activity_add_entry.xml" value="0.25052083333333336" />
         <entry key="..\:/MyManager2/app/src/main/res/layout/activity_confidential.xml" value="0.25052083333333336" />
         <entry key="..\:/MyManager2/app/src/main/res/layout/activity_daily.xml" value="0.25052083333333336" />
+        <entry key="..\:/MyManager2/app/src/main/res/layout/activity_home.xml" value="0.264" />
         <entry key="..\:/MyManager2/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/MyManager2/app/src/main/res/layout/activity_passcode.xml" value="0.4" />
         <entry key="..\:/MyManager2/app/src/main/res/layout/activity_secret_adapter.xml" value="0.25052083333333336" />
         <entry key="..\:/MyManager2/app/src/main/res/layout/item_container_note_m.xml" value="0.22870370370370371" />
+        <entry key="..\:/MyManager2/app/src/main/res/menu/bottom_menu1.xml" value="0.25416666666666665" />
         <entry key="..\:/MyManager2/app/src/main/res/menu/menu.xml" value="0.13148148148148148" />
         <entry key="..\:/MyManager2/app/src/main/res/menu/menu_m.xml" value="0.13148148148148148" />
         <entry key="..\:/MyManager2/app/src/main/res/menu/option_menu_m.xml" value="0.13148148148148148" />
@@ -33,7 +41,7 @@
   <component name="VisualizationToolProject">
     <option name="state">
       <ProjectState>
-        <option name="scale" value="0.4" />
+        <option name="scale" value="0.264" />
       </ProjectState>
     </option>
   </component>

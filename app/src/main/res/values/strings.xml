@@ -11,4 +11,11 @@
     <string name="confidential">Confidential</string>
     <string name="add_a_image">Add a image</string>
     <string name="dear_diary">Dear Diary...</string>
+    <string name="welcome_text">Welcome</string>
+    <string name="username">Nirasha Jayasiri</string>
+    <string name="card_title3">Create New Goal</string>
+    <string name="card_title4">Add New Transaction</string>
+    <string name="card_title1">Create New Event</string>
+    <string name="card_title2">Add New Memory</string>
+    <string name="quick_actions">Quick actions</string>
 </resources>

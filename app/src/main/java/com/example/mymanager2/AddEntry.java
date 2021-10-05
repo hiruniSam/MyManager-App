@@ -27,8 +27,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
-/* import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;  */
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 import java.io.InputStream;
 import java.text.SimpleDateFormat;
@@ -48,7 +48,7 @@ public class AddEntry extends AppCompatActivity {
     int count = 0;
 
     Diary diary1;
-   // DatabaseReference db;
+    DatabaseReference db;
     private static final int REQUEST_CODE_STORAGE_PERMISSION = 1;
     private static final int REQUEST_CODE_SELECT_IMAGE = 2;
 
@@ -103,7 +103,7 @@ public class AddEntry extends AppCompatActivity {
 
 
 
-       /* imageSave.setOnClickListener(new View.OnClickListener() {
+        imageSave.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 if(cb1.isChecked()){
@@ -113,7 +113,7 @@ public class AddEntry extends AppCompatActivity {
                     saveNote();
                 }
             }
-        }); */
+        });
 
 
         selectedImagePath = "";
@@ -136,7 +136,7 @@ public class AddEntry extends AppCompatActivity {
                         return true;
 
                     case R.id.home:
-                        startActivity(new Intent(getApplicationContext(), MainActivity.class));
+                        startActivity(new Intent(getApplicationContext(), Home.class));
                         overridePendingTransition(0, 0);
                         return true;
 
@@ -156,7 +156,7 @@ public class AddEntry extends AppCompatActivity {
 
     }
 
-  /*  private void saveNote(){
+    private void saveNote(){
         db = FirebaseDatabase.getInstance().getReference().child("Diary");
         try {
             if (etTitle.getText().toString().trim().isEmpty()) {
@@ -181,10 +181,10 @@ public class AddEntry extends AppCompatActivity {
         }
 
 
-    }*/
+    }
 
 
-     /*private void saveConfidential(){
+     private void saveConfidential(){
         db = FirebaseDatabase.getInstance().getReference().child("SecretDiary");
         try {
             if (etTitle.getText().toString().trim().isEmpty()) {
@@ -209,7 +209,7 @@ public class AddEntry extends AppCompatActivity {
         }
 
 
-    } */
+    }
 
     //add image
     private void initMiscellaneous(){

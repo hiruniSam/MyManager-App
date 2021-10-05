@@ -11,4 +11,13 @@
     <color name="gray">#E6E6E6</color>
     <color name="Dark_blue">#003366</color>
     <color name="blue_bat">#1147A2</color>
+    <color name="colorPrimary">#1460E0</color>
+    <color name="yellow">#FF9900</color>
+    <color name="orange">#FF8800</color>
+    <color name="grey">#7B7B7B</color>
+    <color name="light_background">#ebf2f7</color>
+    <color name="colorPrimaryDark">#1147A2</color>
+    <color name="green">#10DD10</color>
+    <color name="red">#F31717</color>
+    <color name="menu_bg">#e6e6e6</color>
 </resources>

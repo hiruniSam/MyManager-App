@@ -12,13 +12,14 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
-/* import com.google.firebase.database.DataSnapshot;
+ import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.ValueEventListener; */
+import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
 
@@ -29,8 +30,9 @@ public class Daily extends AppCompatActivity {
     ArrayList<Diary> diaries;
     DiaryAdapter diaryAdapter;
     Diary diary;
+    TextView count;
 
-    //DatabaseReference db;
+    DatabaseReference db;
 
     BottomNavigationView bottomNavigationView;
 
@@ -42,9 +44,9 @@ public class Daily extends AppCompatActivity {
         getSupportActionBar().setIcon(R.drawable.ic_diary);
         getSupportActionBar().setTitle("  Diary");
 
-
+        count = findViewById(R.id.tv_count);
         dailyRecyclerView = findViewById(R.id.rt_daily);
-        //db = FirebaseDatabase.getInstance().getReference("Diary");
+        db = FirebaseDatabase.getInstance().getReference("Diary");
         dailyRecyclerView.setHasFixedSize(true);
 
         dailyRecyclerView.setLayoutManager(
@@ -55,7 +57,7 @@ public class Daily extends AppCompatActivity {
         diaryAdapter = new DiaryAdapter(this, diaries);
         dailyRecyclerView.setAdapter(diaryAdapter);
 
-       /* db.addValueEventListener(new ValueEventListener() {
+       db.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
                 for(DataSnapshot dataSnapshot : snapshot.getChildren()){
@@ -63,6 +65,7 @@ public class Daily extends AppCompatActivity {
                     diaries.add(diary);
                 }
                 diaryAdapter.notifyDataSetChanged();
+                count.setText("Total dairy notes = "+""+ diaries.size());
             }
 
 
@@ -70,7 +73,7 @@ public class Daily extends AppCompatActivity {
             public void onCancelled(@NonNull DatabaseError error) {
 
             }
-        });  */
+        });
 
 
         bottomNavigationView = findViewById(R.id.nav_bar);
@@ -85,7 +88,7 @@ public class Daily extends AppCompatActivity {
                         return true;
 
                     case R.id.home:
-                        startActivity(new Intent(getApplicationContext(),MainActivity.class));
+                        startActivity(new Intent(getApplicationContext(),Home.class));
                         overridePendingTransition(0,0);
                         return true;
 

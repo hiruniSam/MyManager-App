@@ -10,11 +10,11 @@ import android.os.Bundle;
 import android.view.MenuItem;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
-/*import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.ValueEventListener; */
+import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
 
@@ -25,7 +25,7 @@ public class Confidential extends AppCompatActivity {
     SecretAdapter secretAdapter;
     SecretDiary secretDiary;
 
-    //DatabaseReference db;
+    DatabaseReference db;
 
     BottomNavigationView bottomNavigationView;
     @Override
@@ -38,7 +38,7 @@ public class Confidential extends AppCompatActivity {
 
 
         secretRecyclerView = findViewById(R.id.rt_secret);
-       // db = FirebaseDatabase.getInstance().getReference("SecretDiary");
+        db = FirebaseDatabase.getInstance().getReference("SecretDiary");
         secretRecyclerView.setHasFixedSize(true);
 
         secretRecyclerView.setLayoutManager(
@@ -49,7 +49,7 @@ public class Confidential extends AppCompatActivity {
         secretAdapter = new SecretAdapter(this, secretDiaries);
         secretRecyclerView.setAdapter(secretAdapter);
 
-      /*  db.addValueEventListener(new ValueEventListener() {
+        db.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
                 for(DataSnapshot dataSnapshot : snapshot.getChildren()){
@@ -63,7 +63,7 @@ public class Confidential extends AppCompatActivity {
             public void onCancelled(@NonNull DatabaseError error) {
 
             }
-        });*/
+        });
 
         bottomNavigationView = findViewById(R.id.nav_bar);
         bottomNavigationView.setSelectedItemId(R.id.confidential);
@@ -79,7 +79,7 @@ public class Confidential extends AppCompatActivity {
                         return true;
 
                     case R.id.home:
-                        startActivity(new Intent(getApplicationContext(),MainActivity.class));
+                        startActivity(new Intent(getApplicationContext(),Home.class));
                         overridePendingTransition(0,0);
                         return true;
 
